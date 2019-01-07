@@ -37,7 +37,7 @@ function addLine(values) {
   sheet.appendRow(values); 
 }
 
-function endTask(values){
+function endTask(){
   var sheet = SpreadsheetApp.openById(sheetid);
   var lastRowIndex = sheet.getLastRow();
   var d = new Date();
