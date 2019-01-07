@@ -35,7 +35,6 @@ function doPost(request) {
 function addLine(values) {
   var sheet = SpreadsheetApp.openById(sheetid);
   sheet.appendRow(values); 
-  endTask(values);
 }
 
 function endTask(values){
